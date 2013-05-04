@@ -10,6 +10,8 @@ Vanilla Yii2 Application with composer support
 
 ### Get started
 
+[Install composer](http://getcomposer.org/doc/00-intro.md#installation-nix)
+
 Install application    
 
     composer.phar create-project -sdev phundament/app-vanilla2 
