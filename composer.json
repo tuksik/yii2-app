@@ -1,0 +1,29 @@
+{
+    "name": "phundament/app-vanilla2",
+    "description": "Yii2 Application",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Tobias Munk",
+            "email": "schmunk@usrbin.de"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "yiisoft/yii2",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/yiisoft/yii2.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "dev-master"
+    }
+}

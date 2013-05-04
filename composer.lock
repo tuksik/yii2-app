@@ -1,0 +1,36 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "6e44c7ca8090b2f3f3bd52472411d350",
+    "packages": [
+        {
+            "name": "yiisoft/yii2",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2013-05-04 12:08:46"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "yiisoft/yii2": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
