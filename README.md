@@ -5,6 +5,9 @@ Version 4.0.1.0-dev
 
 ** DO NOT USE FOR PRODUCTION YET! **
 
+Check [phundament/app](https://github.com/phundament/app) for the Yii 1.x apps with composer suppport.
+
+
 Vanilla Yii2 Application with composer support
 ----------------------------------------------
 
