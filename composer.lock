@@ -3,20 +3,68 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0b96a35ac23eae4e84ffd588653e88d2",
+    "hash": "1b8f13b03190b6c4ff44f3938fd0e1cb",
     "packages": [
+        {
+            "name": "schmunk42/yii2-extension-skeleton",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmunk42/yii2-extension-skeleton.git",
+                "reference": "83a62af3a119b138c0908b83bb368fe1a60e1e30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmunk42/yii2-extension-skeleton/zipball/83a62af3a119b138c0908b83bb368fe1a60e1e30",
+                "reference": "83a62af3a119b138c0908b83bb368fe1a60e1e30",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2-composer": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "yii-install-commands": [
+                    "schmunk42\\skeleton\\commands\\hello \"I am an extension!\""
+                ]
+            },
+            "autoload": {
+                "psr-0": {
+                    "schmunk42\\skeleton\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Munk",
+                    "email": "schmunk@usrbin.de",
+                    "homepage": "http://www.usrbin.de"
+                }
+            ],
+            "description": "Yii2 Extension Skeleton",
+            "homepage": "https://github.com/schmunk42/yii2-extension-skeleton.git",
+            "keywords": [
+                "Skeleton",
+                "extension",
+                "yii2"
+            ],
+            "time": "2013-05-26 22:28:15"
+        },
         {
             "name": "yiisoft/yii2",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "d5e98581c23cfc6be1dce33af77d5afb880d07f6"
+                "reference": "ff5e05a8bae5586e53dec080efe0a4af2d85228b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/d5e98581c23cfc6be1dce33af77d5afb880d07f6",
-                "reference": "d5e98581c23cfc6be1dce33af77d5afb880d07f6",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ff5e05a8bae5586e53dec080efe0a4af2d85228b",
+                "reference": "ff5e05a8bae5586e53dec080efe0a4af2d85228b",
                 "shasum": ""
             },
             "require": {
@@ -97,7 +145,7 @@
                 "framework",
                 "yii"
             ],
-            "time": "2013-05-24 20:16:30"
+            "time": "2013-05-26 22:22:42"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -153,7 +201,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "yiisoft/yii2": 20,
-        "yiisoft/yii2-composer": 20
+        "yiisoft/yii2-composer": 20,
+        "schmunk42/yii2-extension-skeleton": 20
     },
     "platform": {
         "php": ">=5.3.0"
